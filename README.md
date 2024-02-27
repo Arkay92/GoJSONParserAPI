@@ -42,8 +42,10 @@ To use the API, send a POST request to `/person` with a JSON payload. For exampl
 
 ```bash
 curl -X POST -H "Content-Type: application/json" -d '{"name":"John Doe","age":30,"city":"New York","friends":[{"name":"Jane Doe","age":25},{"name":"Richard Roe","age":28}]}' http://localhost:8080/person
-Contributing
+```
+
+### Contributing
 Contributions are welcome! Please feel free to submit a pull request.
 
-License
+### License
 This project is licensed under the MIT License - see the LICENSE file for details.
